@@ -1,0 +1,64 @@
+.lightbox { 
+    display: none;
+    //display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    padding: 20px;
+
+    background: url(../images/back.jpg) center;
+
+    //.sidebar {
+        //flex: 1;
+    //}
+    
+    .lb-content {
+        max-width: 800px;
+        font-family: Tahoma;
+        font-size: 35px;
+        margin: 0 auto;
+        
+ 
+    }
+
+    .lb-content p
+    {
+        margin: 0 auto;
+        text-align: center;
+        color: black;
+    }
+
+    .lb-content h4
+    {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 8px;
+        color: black;
+    }
+
+    img { max-width: 250px; }
+
+    .close {    
+        right: 24px;
+        top: 10px;
+        cursor: pointer;
+        font-size: 2em;
+        position: fixed;
+        border: thin solid black;
+        padding: 2px 14px 5px;
+        border-radius: 50%;
+        background-color: rgba(255,255,255,0.25);
+    }
+}
+
+.show-lb { display: flex !important; }
+
+.u-social {
+    li { 
+        display: inline-block;
+        padding: 10px;
+    }
+}
